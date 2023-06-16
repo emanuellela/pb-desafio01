@@ -32,7 +32,7 @@ body {
     color: #fff;
     display: inline-block;
     font-weight: bold;
-    font-size: 18px;
+    font-size: 16px;
     text-decoration: none;
     position: relative;
 }
@@ -52,9 +52,110 @@ body {
 }*/
 
 /*header*/
-header{
+header {
     background: #FFFFFF;
     height: 100vh;
     width: 100%;
 }
 
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 1296px;
+    top: 35px;
+    z-index: 100;
+}
+
+nav .logo img {
+    width: 159px;
+    height: 40px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    list-style: none;
+    margin: 0;
+}
+
+nav ul li a {
+    /* menu item */
+    font-family: "Poppins", s ;
+    font-weight: bold;
+    font-size: 18px;
+    /* identical to box height, or 133% */
+    text-align: center;
+    /* color/primary color: #5468E7 in about*/
+    color: #8B8B8B;
+    text-decoration: none;
+}
+
+.hero-section {
+    display: flex0;
+    height: 100vh;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 60px;
+}
+
+.hero-section .left h1 {
+    font-family: "SF Pro Display", sans-serif;
+    font-weight: 700;
+    font-size: 84px;
+    line-height: 100px;
+    letter-spacing: -1px;
+    color: #232340;
+    margin-bottom: 0;
+}
+
+.hero-section .left p {
+    font-family: 'SF Pro Display';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    color: #606060;
+    margin-bottom: 30px;
+}
+
+.hero-section .left {
+    width: 457px;
+}
+
+.hero-section .right {
+    align-self: flex-end;
+}
+
+.hero-section .right img {
+    height: 660px;
+    vertical-align: middle;
+    float: right;
+}
+
+.four-cards {
+    position: absolute;
+}
+
+.four-cards .the-card {
+    border-radius: 48px;
+    background: #FFFFFF;
+    padding: 32px 8px;
+    z-index: 10;
+    position: relative;
+}
+
+.the-card .info {
+    left: 330px;
+    top: 47%;
+}
+
+.the-card h5 {
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    color: var(--primary-color);
+    text-align: center;
+}
