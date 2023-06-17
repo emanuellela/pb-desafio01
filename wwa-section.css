@@ -1,5 +1,9 @@
 @import url('https://fonts.cdnfonts.com/css/sf-pro-display');
 
+.second-section {
+    background-color:#232340;
+}
+
 .icon-folio {
     width: 24px;
     height: 24px;
@@ -10,17 +14,17 @@
 .title-wwa {
     margin-left: 280px;
     margin-top: -23px;
+    color: white;
 }
 
 .subtitle-circle {
     width: 100%;
-
 }
 
 .circle {
     width: 144px;
     height: 64px;
-    margin-left: 1240px;
+    margin-left: 1000px;
 }
 
 .subtitle-circle h2 {
@@ -63,6 +67,7 @@
     margin-bottom: 102px;
     list-style-type: none;
     margin-top: 90px;
+    color: white;
 }
 
 .l5 {
@@ -71,6 +76,39 @@
     margin-top: 90px;
 }
 .desktop-wwa {
-    margin-left: 400px;
+    margin-left: 300px;
     margin-top: -630px;
+}
+
+.text-wwa h3 {
+    font-family: 'SF Pro Display', sans-serif;
+    font-weight: 520;
+    font-size: 50px;
+    line-height: 60px;
+    letter-spacing: -1px;
+    color: white;
+    margin-bottom: 0;
+    margin-top: 170px;
+    margin-left: 280px;
+    margin-bottom: 50px;
+}
+
+.second-section .text-wwa p {
+    font-family: 'SF Pro Display', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    color: #606060;
+    margin-bottom: 30px;
+    margin-left: 282px;
+}
+
+.btn.light {
+    background: var(--primary-color);
+    margin-left: 280px;
+}
+
+.num .doisoito {
+    margin-left: 900px;
+    margin-top: -260px;
 }
