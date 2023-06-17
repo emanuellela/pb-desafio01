@@ -8,15 +8,16 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Abel&family=IBM+Plex+Sans:wght@500&family=Poppins:wght@400;700&family=Roboto+Condensed:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="header.css">
 </head>
-<body>
-    <header>
-        <div class="wrapper">
-            <nav>
-                <div class="logo">
-                    <img src="images/logo.png" alt="">
-                </div>
 
+<body>
+    <header class="cabecalho">
+        <nav>
+            <div class="logo-container">
+                <img src="images/logo.png" class="logo">
+            </div>
+            <div>
                 <ul>
                     <li>
                         <a href="#">About</a>
@@ -30,16 +31,19 @@
                     <li>
                         <a href="#">Jobs</a>
                         <div class="notification2">
-                            <img src="images/notification2.svg" alt="">
+                            <img src="images/notification2.svg">
                         </div>
                     </li>
-
-                    <li>
-                        <a href="#" class="btn dark">Contact Us</a>
-                    </li>
                 </ul>
-            </nav>
+            </div>
+            <div>
+                <a href="#" class="btn dark">Contact Us</a>
+            </div>
+        </nav>
 
+    </header>
+    <section>
+        <div class="wrapper">
             <!--End of page navigation menu-->
 
             <div class="hero-section">
@@ -64,10 +68,9 @@
                         <img src="images/hero-img.png" alt="">
                     </div>
                 </div>
-
             </div>
         </div>
-    </header>
+    </section>
     <!-- End of header section -->
 
     <header class="second-header">
@@ -244,65 +247,63 @@
         <!-- Conteúdo do 4 header -->
         </header>
 
-        <div class="wrapper">
-            <div class="left">
-                <div class="folio">
-                    <img src="images/folio.png" alt="">
-                </div>
-                    
-                <p>04.   We are hiring </p>
-                <h1>Jobs</h1>
-
-                <p>
-                    Agency is a full-service agency, busy designing and building<br /> 
-                    beaultiful products, brands and experiences.
-                </p>
-    
-                <!--button circle arrow -->
-                <a href="#" class="circle">
-                    <img src="images/circle-arrow.png" alt="">
-                </a>
-
-                <p>Available jobs</p>
-                <div class="right">
-                    <div class="jobs-card">
-                        <div class="content">
-                            <h3>Visual Designer</h3>
-                            <p>2 years experience</p>
-                            <div class="arrow-light">
-                                <img src="images/arrow-down-white.png" alt="">
+        <header class="fifth-header">
+            <div class="wrapper">
+                <div class="left">
+                    <div class="folio">
+                        <img src="images/folio.png" alt="">
+                    </div>
+                    <p>04.   We are hiring </p>
+                    <h1>Jobs</h1>
+                    <p>
+                        Agency is a full-service agency, busy designing and building<br /> 
+                        beaultiful products, brands and experiences.
+                    </p>
+                    <!--button circle arrow -->
+                    <a href="#" class="circle">
+                        <img src="images/circle-arrow.png" alt="">
+                    </a>
+                    <p>Available jobs</p>
+                    <div class="right">
+                        <div class="jobs-card">
+                            <div class="content">
+                                <h3>Visual Designer</h3>
+                                <p>2 years experience</p>
+                                <div class="arrow-light">
+                                    <img src="images/arrow-down-white.png" alt="">
+                                </div>
                             </div>
-                        </div>
 
-                        <div class="content">
-                            <h3>Art Director</h3>
-                            <p>2 years experience</p>
-                            <div class="arrow-dark">
-                                <img src="images/arrow-down.png" alt="">
+                            <div class="content">
+                                <h3>Art Director</h3>
+                                <p>2 years experience</p>
+                                <div class="arrow-dark">
+                                    <img src="images/arrow-down.png" alt="">
+                                </div>
                             </div>
-                        </div>
 
-                        <div class="content">
-                            <h3>Web Designer</h3>
-                            <div class="notification6">
-                                <img src="images/notification6.svg" alt="">
-                            </div>
-                            <p>2 years experience</p>
-                            <div class="arrow-dark">
-                                <img src="images/arrow-down.png" alt="">
+                            <div class="content">
+                                <h3>Web Designer</h3>
+                                <div class="notification6">
+                                    <img src="images/notification6.svg" alt="">
+                                </div>
+                                <p>2 years experience</p>
+                                <div class="arrow-dark">
+                                    <img src="images/arrow-down.png" alt="">
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
+                     <!-- End of We are hiring section-->
+                    <!-- Conteúdo do 5 header -->
+                </header>
 
-                <!--fix it-->
-                <div class="center">
+                <header class="sixth-header">                         
+                    <div class="center">
                         <div class="logo-symbol">
                             <img src="images/logo-symbol.svg" alt="">
                         </div>
-
                         <img src="images/👋.svg" alt="">
-
                         <p>Say hello</p>
 
                         <h3>A design team building a curated<br /> 
@@ -326,10 +327,12 @@
                             <img src="images/circle-arrow-white.svg" alt="">
                         </div>
                     </div>
-            </section>   
-        </div>
-        <!-- End of We are hiring section-->
+                </section>   
+            </div>
+        <!-- Conteúdo do 6 header -->
+        </header>
 
+        <header class="seventh-header">          
         <!-- Final page -->
         <div class="wrapper">
             <section class="app-section">
@@ -382,7 +385,8 @@
                     </div>
                 </div>
             </div>
-        </footer>
+        </footer>                <!-- Conteúdo do 7 header -->
+    </header>
 
     <script src="main.js"></script>
 </body>

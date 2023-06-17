@@ -51,12 +51,12 @@ body {
 ...6mV4
 }*/
 
-/*header*/
+/*header
 header {
     background: #fff;
     height: 100vh;
     width: 100%;
-}
+}*/
 
 .second-header {
     background-color: #232340; 
@@ -67,14 +67,20 @@ header {
 }
 
 .fourth-header {
-    background-color: #c50b0b;
+    background-color: #fff;
 }
 
 .fifth-header {
-    background-color: #ccc;
+    background-color: #EDE5F0;
 }
 
+.sixth-header {
+    background-color: #fff;
+}
 
+.seventh-header {
+    background-color: #fff;
+}
 
 nav {
     display: flex;
