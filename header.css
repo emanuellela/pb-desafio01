@@ -1,3 +1,4 @@
+@import url('https://fonts.cdnfonts.com/css/sf-pro-display');
 .cabecalho{
     height: 120px;
     background-color: white;
@@ -17,4 +18,34 @@
 .logo{
     width: 160px;
     height: 40px;
+}
+
+.lista-header{
+    display: flex;
+    align-items: center;
+    gap: 64px;
+    list-style: none;
+    margin: 0;
+}
+
+.lista-header li a {
+    font-family:'SF Pro Display', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.primary-color{
+    color: #5468E7;
+}
+
+.default-grey{
+    color: #8B8B8B;
+}
+
+.notification-container{
+    position: relative;
 }
