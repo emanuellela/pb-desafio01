@@ -1,5 +1,9 @@
 @import url('https://fonts.cdnfonts.com/css/sf-pro-display');
 
+.first-section {
+    height: 950px;
+}
+
 .hero-section {
     display: flex;
     height: 100vh;
@@ -29,26 +33,13 @@
 }
 
 .hero-section .left-hero {
-    width: 457px;
-    padding: 30px;
+    width: 557px;
+    padding: 66px;
 }
 
 .hero-section .right {
     align-self: flex-end;
 }
-
-/*.hero-section .right img {
-    height: 660px;
-    vertical-align: middle;
-    float: right;
-    z-index: -1;
-    margin-top: -560px;
-}*/
-
-/*.image-margin{
-    width: 560px;
-    z-index: -1;
-}*/
 
 .image-container {
     position: relative;
@@ -62,8 +53,4 @@
    top: -80px;
    left: 50px;
    z-index: 1;
-}
-
-.first-section{
-    height: 950px;
 }
