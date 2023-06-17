@@ -83,23 +83,12 @@ header {
     background-color: #fff;
 }
 
-nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    position: fixed;
-    width: 1296px;
-    top: 35px;
-    z-index: 100;
-}
-
-nav .logo img {
-    width: 159px;
-    height: 40px;
+.image-margin{
+    width: 300px;
 }
 
 .hero-section {
-    display: flex0;
+    display: flex;
     height: 100vh;
     width: 100%;
     align-items: center;
@@ -128,6 +117,7 @@ nav .logo img {
 
 .hero-section .left {
     width: 457px;
+    padding: 30px;
 }
 
 .hero-section .right {
