@@ -46,12 +46,6 @@ body {
     background: var(--primary-color);
 }
 
-/*.btn.enrol-icon::before {
-    content: url('images/');
-    position: absolute;
-...6mV4
-}*/
-
 /*header
 header {
     background: #fff;
@@ -81,55 +75,6 @@ header {
 
 .seventh-header {
     background-color: #fff;
-}
-
-.image-margin{
-    width: 300px;
-}
-
-.hero-section {
-    display: flex;
-    height: 100vh;
-    width: 100%;
-    align-items: center;
-    justify-content: space-between;
-    padding-top: 60px;
-}
-
-.hero-section .left h1 {
-    font-family: 'SF Pro Display', sans-serif;
-    font-weight: 700;
-    font-size: 84px;
-    line-height: 100px;
-    letter-spacing: -1px;
-    color: #232340;
-    margin-bottom: 0;
-}
-
-.hero-section .left p {
-    font-family: 'SF Pro Display';
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 32px;
-    color: #606060;
-    margin-bottom: 30px;
-}
-
-.hero-section .left {
-    width: 457px;
-    padding: 30px;
-}
-
-.hero-section .right {
-    align-self: flex-end;
-}
-
-.hero-section .right img {
-    height: 660px;
-    vertical-align: middle;
-    float: right;
-    z-index: -1;
-    margin-top: -560px;
 }
 
 .four-cards {
