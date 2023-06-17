@@ -1,5 +1,5 @@
 @import url('https://fonts.cdnfonts.com/css/sf-pro-display');
-.cabecalho{
+.cabecalho {
     height: 120px;
     background-color: white;
     display: flex;
@@ -21,7 +21,7 @@
     padding-right: 40px;
 }
 
-.logo-container{
+.logo-container {
     height: 100px;
     width: 100px;
     justify-content: space-around;
@@ -29,12 +29,12 @@
     display: flex;
 }
 
-.logo{
+.logo {
     width: 160px;
     height: 40px;
 }
 
-.lista-header{
+.lista-header {
     display: flex;
     align-items: center;
     gap: 64px;
