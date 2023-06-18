@@ -24,6 +24,33 @@
     width: 972px;
     height: 768px;
     color: white;
+    margin-top: 50px;
+}
+
+.bubble {
+  width: 100px;
+  float: left;
+  margin-top: -100px;
+}
+
+.circle-white {
+  float: right;
+}
+
+.text-sh {
+  text-align: left;
+  margin-right: 640px;
+  color: white;
+  position: relative;
+  z-index: 1;
+  margin-top: 140px;
+}
+
+.invest {
+  color: white;
+  position: relative;
+  z-index: 1;
+  margin-left: 390px;
 }
 
 .say-hello::before,
@@ -53,7 +80,6 @@
 
 .symbol {
   margin-bottom: 80px;
-  margin-top: -120px;
 }
 
 .img-sh {
@@ -63,11 +89,6 @@
 
 .word-sh {
   margin-top: -20px;
-}
-
-text-sh {
-  text-align: left;
-  margin-right: 40px;
 }
 
 
