@@ -1,0 +1,146 @@
+@import url('https://fonts.cdnfonts.com/css/sf-pro-display');
+
+.third-section {
+    background-color:#ecebeb;
+}
+
+.title-wwd {
+    margin-left: 280px;
+    margin-top: -23px;
+    color: #5468E7;
+}
+
+.subtitle-wwd {
+    width: 100%;
+}
+
+.subtitle-wwd h2 {
+    font-family: 'SF Pro Display', sans-serif;
+    font-weight: 520;
+    font-size: 70px;
+    line-height: 75px;
+    letter-spacing: -1px;
+    color: #232340;
+    margin-bottom: 0;
+    margin-top: -56px;
+    margin-left: 280px;
+}
+
+.title-wwd {
+    margin-left: 280px;
+    margin-top: -23px;
+    color: #5468E7;
+}
+
+.text-wwd h3 {
+    font-family: 'SF Pro Display', sans-serif;
+    font-weight: 520;
+    font-size: 50px;
+    line-height: 60px;
+    letter-spacing: -1px;
+    color: #5468E7;
+    margin-bottom: 0;
+    margin-top: 170px;
+    margin-left: 280px;
+    margin-bottom: 50px;
+}
+
+.third-section .text-wwd p {
+    font-family: 'SF Pro Display', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    color: #606060;
+    margin-bottom: 30px;
+    margin-left: 282px;
+}
+  
+.image-container {
+    display: flex;
+    justify-content: center;
+}
+
+.four-cards {
+    display: flex; /* Cria um flex container */
+    justify-content: center; /* Centraliza horizontalmente */
+    padding: 80px;
+    align-items: center;
+    text-align: center;
+}
+
+.image-container {
+    order: 1; /* Define a ordem da imagem */
+    margin-bottom: 10px;
+    width: 128px;
+    height: 128px;
+    margin-left: -25px;
+    margin-top: 90px;
+}
+
+.image-container-purple {
+    order: 1; /* Define a ordem da imagem */
+    margin-bottom: 10px; 
+    width: 128px;
+    height: 128px;
+    margin-left: 0;
+    margin-top: 124px;
+}
+
+.four-cards .one-card {
+    border-radius: 48px;
+    background: white;
+    padding: 32px 8px;
+    z-index: 10;
+    position: relative;
+    width: 293px;
+    height: 480px;
+}
+
+.four-cards .two-card {
+    border-radius: 48px;
+    background: #5468E7;
+    padding: 32px 8px;
+    z-index: 10;
+    position: relative;
+    width: 293px;
+    height: 560px;
+}
+
+.four-cards .three-card {
+    border-radius: 48px;
+    background: #FFFFFF;
+    padding: 32px 8px;
+    z-index: 10;
+    position: relative;
+    width: 293px;
+    height: 480px;
+}
+
+.four-cards .four-card {
+    border-radius: 48px;
+    background: #FFFFFF;
+    padding: 32px 8px;
+    z-index: 10;
+    position: relative;
+    width: 293px;
+    height: 480px;
+}
+
+.info {
+    left: 330px;
+    top: 47%;
+    color: #5468E7;
+    margin-top: 44px;
+}
+
+.two-card .info {
+    color: white;
+}
+
+.the-card h5 {
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    color: var(--primary-color);
+    text-align: center;
+}

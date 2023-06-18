@@ -46,11 +46,6 @@ body {
     background: var(--primary-color);
 }
 
-/*
-.third-header {
-    background-color: #EDE5F0;
-}*/
-
 .fourth-header {
     background-color: #fff;
 }
@@ -65,29 +60,4 @@ body {
 
 .seventh-header {
     background-color: #fff;
-}
-
-.four-cards {
-    position: absolute;
-}
-
-.four-cards .the-card {
-    border-radius: 48px;
-    background: #FFFFFF;
-    padding: 32px 8px;
-    z-index: 10;
-    position: relative;
-}
-
-.the-card .info {
-    left: 330px;
-    top: 47%;
-}
-
-.the-card h5 {
-    font-family: "Poppins", sans-serif;
-    font-weight: bold;
-    font-size: 24px;
-    color: var(--primary-color);
-    text-align: center;
 }
