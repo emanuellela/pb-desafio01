@@ -1,7 +1,8 @@
 @import url('https://fonts.cdnfonts.com/css/sf-pro-display');
 
 .fifth-section {
-    background-color:#ebe1e1;
+    background-color:white;
+    margin-bottom: 0; /* Eliminar qualquer espaço extra na parte inferior da seção */
 }
 
 .title-hiring {
@@ -28,6 +29,7 @@
     top: -600px;
     line-height: 1.5;
     left: 20px;
+    margin-bottom: -590px; /* Espaço no fim daseção*/
 }
 
 .jobs {
@@ -44,6 +46,8 @@
     width: 568px;
     height: 247px;
     color: #232340;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); /* Sombra */
+    margin-bottom: 20px;
 }
 
 .hiring-cards .info-dois {
@@ -55,6 +59,8 @@
     width: 568px;
     height: 247px;
     color: white;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); /* Sombra */
+    margin-bottom: 20px;
 }
 
 .hiring-cards .info-tres {
@@ -66,6 +72,8 @@
     width: 568px;
     height: 247px;
     color: #232340;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); /* Sombra */
+    margin-bottom: 20px;
 }
 
 .hiring-cards .info-quatro {
@@ -77,6 +85,8 @@
     width: 568px;
     height: 247px;
     color: #232340;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3); /* Sombra */
+    margin-bottom: 20px;
 }
 
 .circle-hiring {

@@ -1,7 +1,7 @@
 @import url('https://fonts.cdnfonts.com/css/sf-pro-display');
 
 .sixth-section {
-    background-color:#ebe1e1;
+    background-color:white;
 }
 
 .say-hello {
@@ -15,23 +15,22 @@
     position: relative;
     top: 90px;
     line-height: 1.5;
-    left: 20px;
+    left: -30px;
     border-radius: 48px;
     background: #5468E7;
     padding: 32px 8px;
     z-index: 10;
     position: relative;
-    width: 596px;
-    height: 524px;
+    width: 972px;
+    height: 768px;
     color: white;
-    border-top: 1px solid black;
 }
 
-  .say-hello::before,
-  .say-hello::after {
+.say-hello::before,
+.say-hello::after {
     content: "";
     position: absolute;
-    background-color: white; /* Cor da linha */
+    background-color: white;
 }
   
 .say-hello::before {
@@ -39,15 +38,37 @@
     position: absolute;
     bottom: 0;
     left: 50%;
-    width: 1px;
+    width: 2px;
     height: 50%;
     transform: translateX(-50%);
-  }
+}
   
-  .say-hello::after {
+.say-hello::after {
     top: 50%;
     left: 0;
     width: 100%;
-    height: 1px;
+    height: 2px;
     transform: translateY(-50%);
 }
+
+.symbol {
+  margin-bottom: 80px;
+  margin-top: -120px;
+}
+
+.img-sh {
+  float: left;
+  margin-right: 90px;
+}
+
+.word-sh {
+  margin-top: -20px;
+}
+
+text-sh {
+  text-align: left;
+  margin-right: 40px;
+}
+
+
+
