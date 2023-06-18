@@ -24,5 +24,30 @@
     width: 596px;
     height: 524px;
     color: white;
+    border-top: 1px solid black;
 }
 
+  .say-hello::before,
+  .say-hello::after {
+    content: "";
+    position: absolute;
+    background-color: white; /* Cor da linha */
+}
+  
+.say-hello::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 1px;
+    height: 50%;
+    transform: translateX(-50%);
+  }
+  
+  .say-hello::after {
+    top: 50%;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    transform: translateY(-50%);
+}
