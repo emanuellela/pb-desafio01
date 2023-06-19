@@ -40,7 +40,7 @@
 .hiring-cards .info-um {
     border-radius: 48px;
     background: white;
-    padding: 32px 8px;
+    padding: 32px 32px;
     z-index: 10;
     position: relative;
     width: 568px;
@@ -53,7 +53,7 @@
 .hiring-cards .info-dois {
     border-radius: 48px;
     background: #232340;
-    padding: 32px 8px;
+    padding: 32px 32px;
     z-index: 10;
     position: relative;
     width: 568px;
@@ -66,7 +66,7 @@
 .hiring-cards .info-tres {
     border-radius: 48px;
     background: white;
-    padding: 32px 8px;
+    padding: 32px 32px;
     z-index: 10;
     position: relative;
     width: 568px;
@@ -79,7 +79,7 @@
 .hiring-cards .info-quatro {
     border-radius: 48px;
     background: white;
-    padding: 32px 8px;
+    padding: 32px 32px;
     z-index: 10;
     position: relative;
     width: 568px;
@@ -113,4 +113,10 @@
     color: #606060;
     margin-bottom: 90px;
     margin-left: 282px;
+}
+
+.text-notification {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
 }

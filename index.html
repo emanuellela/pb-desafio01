@@ -8,15 +8,15 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Abel&family=IBM+Plex+Sans:wght@500&family=Poppins:wght@400;700&family=Roboto+Condensed:wght@400;700&display=swap" rel="stylesheet">
         <link href="https://fonts.cdnfonts.com/css/sf-pro-display" rel="stylesheet">
-        <link rel="stylesheet" href="style.css">
-        <link rel="stylesheet" href="header.css">
-        <link rel="stylesheet" href="hero-section.css">
-        <link rel="stylesheet" href="wwa-section.css">
-        <link rel="stylesheet" href="wwd-section.css">
-        <link rel="stylesheet" href="famp-section.css">
-        <link rel="stylesheet" href="hiring-section.css">
-        <link rel="stylesheet" href="hello-section.css">
-        <link rel="stylesheet" href="footer.css">
+        <link rel="stylesheet" href="style/style.css">
+        <link rel="stylesheet" href="style/header.css">
+        <link rel="stylesheet" href="style/hero-section.css">
+        <link rel="stylesheet" href="style/wwa-section.css">
+        <link rel="stylesheet" href="style/wwd-section.css">
+        <link rel="stylesheet" href="style/famp-section.css">
+        <link rel="stylesheet" href="style/hiring-section.css">
+        <link rel="stylesheet" href="style/hello-section.css">
+        <link rel="stylesheet" href="style/footer.css">
     </head>
 
     <body>
@@ -285,8 +285,11 @@
             
             <div class="hiring-cards">
                 <div class="info-um">
-                    <h3>Graphic Designer</h3>
-                    <img src="images/notification2.svg">
+                    <div class="text-notification">
+                        <h3>Graphic Designer</h3>
+                        <img src="images/notification2.svg">
+                    </div>
+
                     <p>2 years experience</p>
                     <div class="arrow-dark">
                         <img src="images/arrow-down.png">
@@ -308,8 +311,10 @@
                 </div>
                 
                 <div class="info-quatro">
-                    <h3>Web Designer</h3>
-                    <img src="images/notification6.svg">
+                    <div class="text-notification">
+                        <h3>Web Designer</h3>
+                        <img src="images/notification6.svg">
+                    </div>
                     <p>2 years experience</p>
                     <div class="arrow-dark">
                         <img src="images/arrow-down.png">
@@ -354,6 +359,10 @@
                 <div class="logo-footer">
                     <img src="images/logo.png" class="logo-foo">
                 </div>
+                <p class="pfooter">
+                    Agency is a full-service agency, busy designing and building beaultiful<br /> 
+                    products, brands and experiences.
+                </p>
                 <div>
                     <ul class="lista-footer">
                         <li>
@@ -370,28 +379,25 @@
                         </li>
                     </ul>
                 </div>
-                
-                <p class="copyright">© 2020, UI8 LLC.</p>
-
-                <div class="links">
-                    <ul>
-                        <h3>Follow us</h3>
-                    </ul>
+                <hr class="divisor">
+                <div class="container-social">
+                    <p class="copyright">© 2020, UI8 LLC.</p>
                     <div class="social">
-                        <a href="#">
-                            <img src="images/logo-facebook.svg" alt="">
+                        <p class="follow">Follow us</p>
+                        <a href="http://www.facebook.com">
+                            <img src="images/logo-facebook.svg">
                         </a>
                         <a href="#">
-                            <img src="images/logo-youtube.svg" alt="">
+                            <img src="images/logo-youtube.svg">
                         </a>
                         <a href="#">
-                            <img src="images/logo-instagram.svg" alt="">
+                            <img src="images/logo-instagram.svg">
                         </a>
                     </div>
+
                 </div>
             </nav>
         </footer>  
-
 
         <script src="main.js"></script>
     </body>
