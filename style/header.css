@@ -10,6 +10,16 @@
     width: 100%;
 }
 
+/* Media query para o tamanho primário de tela */
+@media (min-width: 1324px) {
+    .cabecalho {
+    background-color: white; /*test*/
+    color: white;
+    font-size: 32px;
+    padding: 30px;
+    }
+}
+
 .nav-cabecalho {
     display: flex;
     justify-content: space-between;
@@ -51,6 +61,15 @@ should open and close the topnav (.icon) */
     position: absolute;
     top: 15px; 
     right: 15px; 
+}
+
+@media (min-width: 500px) {
+    .icon {
+    background-color: white; /*test*/
+    color: white;
+    font-size: 32px;
+    padding: 30px;
+    }
 }
 
 .logo-container {

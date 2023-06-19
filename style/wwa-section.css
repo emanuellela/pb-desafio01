@@ -4,6 +4,15 @@
     background-color:#232340;
 }
 
+/* Media query para o tamanho primário de tela */
+@media (min-width: 1324px) {
+    .second-section {
+    color: white;
+    font-size: 32px;
+    padding: 30px;
+    }
+}
+
 .icon-folio {
     width: 24px;
     height: 24px;
