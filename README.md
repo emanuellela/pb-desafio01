@@ -1,18 +1,28 @@
-<h1 align="center">Technical Challenge 01 - Folio Agency</h1>
+<h2 align="center">Technical Challenge 01 - Folio Agency</h2>
 
 > Status do projeto: em andamento.
 
-> Tamanho da tela principal: 100%.
+<h3 <h1 align="left"> Iniciando o front-end</h3>
 
-## Como executar o projeto:
+Clique em "Open with Live Server" o arquivo HTML do menu contextual para um servidor local iniciar e abrir no navegador.
 
-- Abra o arquivo HTML em um navegador da web;
-- O navegador exibirá o projeto com o estilo CSS aplicado;
-- Certifique-se de ter os caminhos corretamente definidos nos arquivos HTML/CSS.
+Ou, no terminal do VS Code - navegue até a pasta do seu projeto HTML usando o comando:
+
+```
+cd pb-desafio01
+```
+
+Com o Node.js instalado e o pacote http-server globalmente, você pode executar o comando:
+
+```
+npx http-server
+```
+
+Isso iniciará um servidor local e fornecerá um URL no terminal.
 
 ## Tecnologias:
-  - Mozilla Firefox;
-  - Visual Studio Code.
+  - Mozilla Firefox 114.0.1;
+  - Visual Studio Code 1.79.2.
 
 <details>
   <summary><b>Front-End</b></summary>
