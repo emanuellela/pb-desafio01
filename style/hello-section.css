@@ -5,26 +5,37 @@
 }
 
 .say-hello {
-    display: flex; /* Cria um flex container */
-    justify-content: center; /* Centraliza horizontalmente */
-    padding: 80px;
     align-items: center;
-    text-align: left;
+    background: #5468E7;
+    border-radius: 48px;
+    color: white;
+    display: flex; 
     flex-direction: column;
+    justify-content: center; /* Centraliza horizontalmente */
     margin-left: 222px;
-    position: relative;
     top: 90px;
     line-height: 1.5;
     left: -30px;
-    border-radius: 48px;
-    background: #5468E7;
     padding: 32px 8px;
-    z-index: 10;
     position: relative;
     width: 972px;
     height: 768px;
-    color: white;
     margin-top: 50px;
+}
+
+/*
+media query 
+para tornar o elemento responsivo em telas menores que 768px.
+margin-left, top e left para que o elemento fique posicionado corretamente.*/
+
+@media (max-width: 768px) {
+  .say-hello {
+      width: 100%;
+      height: auto;
+      margin-left: 0;
+      top: 0;
+      left: 0;
+  }
 }
 
 .bubble {
@@ -53,6 +64,7 @@
   margin-left: 390px;
 }
 
+/* add elementos nas pseudo classes para criar linhas de destaque estilizadas */
 .say-hello::before,
 .say-hello::after {
     content: "";
@@ -90,6 +102,3 @@
 .word-sh {
   margin-top: -20px;
 }
-
-
-

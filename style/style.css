@@ -17,21 +17,16 @@
 body {
     margin: 0;
     font-family: 'SF Pro Display', sans-serif;
-}
-
-.wrapper {
-    max-width: 1296px;
-    margin: 0 auto;
-    background-color: red;
+    width: 100%; 
 }
 
 /*buttons*/
 .btn {
+    display: inline-block;/*elemento fica bloco de linha*/
     padding: 16px 32px;
     border-radius: 8px;
     position: absolute;
     color: #fff;
-    display: inline-block;
     font-weight: bold;
     font-size: 16px;
     text-decoration: none;
@@ -56,20 +51,4 @@ body {
     margin-top: 220px;
     margin-left: 130px;
     border-radius: 40px;
-}
-
-.fourth-header {
-    background-color: #fff;
-}
-
-.fifth-header {
-    background-color: #EDE5F0;
-}
-
-.sixth-header {
-    background-color: #fff;
-}
-
-.seventh-header {
-    background-color: #fff;
 }

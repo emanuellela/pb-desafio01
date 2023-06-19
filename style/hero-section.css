@@ -6,7 +6,8 @@
 
 .hero-section {
     display: flex;
-    height: 100vh;
+    flex-wrap: wrap;
+    flex-direction: row;
     width: 100%;
     align-items: center;
     justify-content: space-between;

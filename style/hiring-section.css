@@ -18,7 +18,7 @@
 }
 
 .hiring-cards {
-    display: flex; /* Cria um flex container */
+    display: flex; /* Cria um flex container itens mais dispostos */
     justify-content: center; /* Centraliza horizontalmente */
     padding: 80px;
     align-items: center;
@@ -29,7 +29,8 @@
     top: -600px;
     line-height: 1.5;
     left: 20px;
-    margin-bottom: -590px; /* Espaço no fim daseção*/
+    margin-bottom: -590px; 
+    flex-wrap: wrap;
 }
 
 .jobs {
@@ -46,7 +47,7 @@
     width: 568px;
     height: 247px;
     color: #232340;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); /* Sombra */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
     margin-bottom: 20px;
 }
 
@@ -59,7 +60,7 @@
     width: 568px;
     height: 247px;
     color: white;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); /* Sombra */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
     margin-bottom: 20px;
 }
 
