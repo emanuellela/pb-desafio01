@@ -1,10 +1,7 @@
 @import url('https://fonts.cdnfonts.com/css/sf-pro-display');
-
 .first-section {
     height: 950px;
 }
-
-/* Media query para o tamanho primário de tela */
 @media (min-width: 1324px) {
     .first-section {
     color: white;
@@ -12,7 +9,6 @@
     padding: 30px;
     }
 }
-
 .hero-section {
     display: flex;
     flex-wrap: wrap;
@@ -27,7 +23,6 @@
     top: -100px;
     padding: 160px;
 }
-
 .hero-section .left-hero h1 {
     font-family: 'SF Pro Display', sans-serif;
     font-weight: 700;
@@ -37,7 +32,6 @@
     color: #232340;
     margin-bottom: -100px;
 }
-
 .hero-section .left-hero p {
     font-family: 'SF Pro Display', sans-serif;
     font-weight: 400;
@@ -47,23 +41,19 @@
     margin-bottom: 30px;
     margin-top: 130px;
 }
-
 .hero-section .left-hero {
     width: 557px;
     padding: 66px;
 }
-
 .hero-section .right {
     align-self: flex-end;
 }
-
 .image-container {
     position: relative;
     width: 800px; 
     height: 200px;
     left: 100px;
 }
-
 .image-container img {
     position: absolute;
     margin-top: -205px;

@@ -7,19 +7,16 @@
     --light-orange-color: #FFBA79;
     --light-blue-color: #9A97ED;
 }
-
 *,
 *::after,
 *::before {
     box-sizing: border-box;
 }
-
 body {
     margin: 0;
     font-family: 'SF Pro Display', sans-serif;
     width: 100%; 
 }
-
 /*buttons*/
 .btn {
     display: inline-block;/*elemento fica bloco de linha*/
@@ -32,24 +29,19 @@ body {
     text-decoration: none;
     position: relative;
 }
-
 .btn.dark {
     background: var(--dark-color);
 }
-
 .btn.light {
     background: var(--primary-color);
 }
-
 .btn.famp {
     background: var(--primary-color);
     margin-left: 1100px;
 }
-
 .btn.flight {
     background: #908CFF;
     margin-top: 220px;
     margin-left: 130px;
     border-radius: 40px;
 }
-

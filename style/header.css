@@ -9,8 +9,6 @@
     z-index: 100;
     width: 100%;
 }
-
-/* Media query para o tamanho primário de tela */
 @media (min-width: 1324px) {
     .cabecalho {
     background-color: white; /*test*/
@@ -19,7 +17,6 @@
     padding: 30px;
     }
 }
-
 .nav-cabecalho {
     display: flex;
     justify-content: space-between;
@@ -30,10 +27,6 @@
     padding-left: 40px;
     padding-right: 40px;
 }
-
-/* When the screen is less than 600 pixels wide, hide all links, 
-except for the first one ("Home"). Show the link that contains 
-should open and close the topnav (.icon) */
 @media screen and (max-width: 600px) {
     .nav-cabecalho a:not(:first-child) {display: none;}
     .nav-cabecalho a.icon {
@@ -42,7 +35,6 @@ should open and close the topnav (.icon) */
     }
 }
 
-/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
 @media screen and (max-width: 600px) {
     .nav-cabecalho.responsive {position: relative;}
     .nav-cabecalho.responsive a.icon {
@@ -56,7 +48,6 @@ should open and close the topnav (.icon) */
       text-align: left;
     }
 }
-
 .icon {
     position: absolute;
     top: 15px; 
@@ -71,7 +62,6 @@ should open and close the topnav (.icon) */
     padding: 30px;
     }
 }
-
 .logo-container {
     height: 100px;
     width: 100px;
@@ -79,12 +69,10 @@ should open and close the topnav (.icon) */
     align-items: center;
     display: flex;
 }
-
 .logo {
     width: 160px;
     height: 40px;
 }
-
 .lista-header {
     display: flex;
     align-items: center;
@@ -92,7 +80,6 @@ should open and close the topnav (.icon) */
     list-style: none;
     margin: 0;
 }
-
 .lista-header li a {
     font-family:'SF Pro Display', sans-serif;
     font-style: normal;
@@ -102,15 +89,12 @@ should open and close the topnav (.icon) */
     text-align: center;
     text-decoration: none;
 }
-
 .primary-color{
     color: #5468E7;
 }
-
 .default-grey{
     color: #8B8B8B;
 }
-
 .notification-container{
     position: relative;
 }
