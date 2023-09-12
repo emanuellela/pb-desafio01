@@ -16,8 +16,8 @@ body {
     margin: 0;
     font-family: 'SF Pro Display', sans-serif;
     width: 100%; 
+    height: 100%;
 }
-/*buttons*/
 .btn {
     display: inline-block;/*elemento fica bloco de linha*/
     padding: 16px 32px;

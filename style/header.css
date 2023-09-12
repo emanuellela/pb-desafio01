@@ -8,14 +8,9 @@
     position: fixed;
     z-index: 100;
     width: 100%;
-}
-@media (min-width: 1324px) {
-    .cabecalho {
-    background-color: white; /*test*/
     color: white;
     font-size: 32px;
     padding: 30px;
-    }
 }
 .nav-cabecalho {
     display: flex;
@@ -27,40 +22,14 @@
     padding-left: 40px;
     padding-right: 40px;
 }
-@media screen and (max-width: 600px) {
-    .nav-cabecalho a:not(:first-child) {display: none;}
-    .nav-cabecalho a.icon {
-      float: right;
-      display: block;
-    }
-}
-
-@media screen and (max-width: 600px) {
-    .nav-cabecalho.responsive {position: relative;}
-    .nav-cabecalho.responsive a.icon {
-      position: absolute;
-      right: 0;
-      top: 0;
-    }
-    .nav-cabecalho.responsive a {
-      float: none;
-      display: block;
-      text-align: left;
-    }
-}
 .icon {
     position: absolute;
     top: 15px; 
     right: 15px; 
-}
-
-@media (min-width: 500px) {
-    .icon {
     background-color: white; /*test*/
     color: white;
     font-size: 32px;
     padding: 30px;
-    }
 }
 .logo-container {
     height: 100px;
@@ -97,4 +66,23 @@
 }
 .notification-container{
     position: relative;
+}
+
+@media screen and (max-width: 600px) {
+    .nav-cabecalho.responsive {position: relative;}
+    .nav-cabecalho.responsive a.icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .nav-cabecalho.responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+    .nav-cabecalho a:not(:first-child) {display: none;}
+    .nav-cabecalho a.icon {
+      float: right;
+      display: block;
+    }
 }
