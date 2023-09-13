@@ -56,7 +56,6 @@ body {
     justify-content: space-around;
     position: fixed;
     z-index: 100;
-    font-size: 32px;
     padding: 30px;
 }
 .nav-cabecalho {
@@ -94,8 +93,6 @@ body {
     display: flex;
     align-items: center;
     gap: 64px;
-    list-style: none;
-    margin: 0;
 }
 .lista-header li a {
     font-family:'SF Pro Display', sans-serif;
@@ -122,5 +119,15 @@ body {
         height: 20px;
         margin-inline-start: initial;
         margin-left: -20px;
+    }
+    .lista-header {
+        gap: 8px;
+        flex-direction: initial;
+    }
+    .lista-header li a {
+        font-size: 12px;
+    }
+    .notifica-dois {
+        width: 50%;
     }
 }
