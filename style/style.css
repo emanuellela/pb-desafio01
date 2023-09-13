@@ -19,13 +19,12 @@ body {
     margin: 0;
 }
 .btn {
-    color: #ffffff;
+    color: #FFFFFF;
     display: inline-block;
     padding: 16px 32px;
     border-radius: 8px;
     position: absolute;
     font-weight: bold;
-    font-size: 16px;
     text-decoration: none;
     position: relative;
 }
@@ -121,13 +120,33 @@ body {
         margin-left: -20px;
     }
     .lista-header {
-        gap: 8px;
         flex-direction: initial;
+        gap: 15px;
+        margin-left: 30px;
+        margin-right: 18px;
     }
     .lista-header li a {
         font-size: 12px;
     }
     .notifica-dois {
         width: 50%;
+    }
+    .btn.dark {
+        font-size: 12px;
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-left: 3px;
+    }
+    .btn {
+        padding: 6px 18px;
+        white-space: nowrap;
+    }
+    .notification-container {
+        display: flex;
+        flex-direction: row;
+    }
+    .notifica-dois {
+        width: 12px;
+        margin-bottom: 5px;
     }
 }
