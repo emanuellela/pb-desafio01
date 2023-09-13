@@ -54,12 +54,6 @@
     text-align: center;
     flex-wrap: wrap;
 }
-.image-container {
-    width: 128px;
-    height: 128px;
-    margin-left: -25px;
-    margin-top: 90px;
-}
 .image-container-purple {
     order: 1; /* Define a ordem da imagem */
     margin-bottom: 10px; 
