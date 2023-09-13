@@ -137,32 +137,29 @@ body {
     justify-content: space-between;
     padding-top: 60px;
 }
-.hero-image {
-    left: -270px;
-    top: -100px;
-    padding: 160px;
+.hero-section .left-hero {
+    margin-left: 100px;
 }
 .hero-section .left-hero h1 {
     font-family: 'SF Pro Display', sans-serif;
     font-weight: 700;
-    font-size: 84px;
-    line-height: 100px;
-    letter-spacing: -1px;
+    font-size: 80px; 
+    line-height: 56px; 
     color: #232340;
-    margin-bottom: -100px;
+    letter-spacing: -1px;
+    line-height: 80px;
 }
 .hero-section .left-hero p {
     font-family: 'SF Pro Display', sans-serif;
     font-weight: 400;
-    font-size: 18px;
-    line-height: 32px;
+    font-size: 17px; 
+    line-height: 30px;
     color: #606060;
-    margin-bottom: 30px;
-    margin-top: 130px;
+    margin-bottom: 20px;
+    margin-top: 20px; 
 }
-
 .image-container img {
-    width: 100%;
+    width: 90%;
     height: auto;
 }
 .image-container {
