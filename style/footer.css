@@ -28,6 +28,7 @@
     justify-content: center; /* Centraliza horizontalmente */
     padding: 80px;
     align-items: center;
+    width: 100%;
     flex-direction: column;
 }
 
