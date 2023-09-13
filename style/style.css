@@ -72,7 +72,7 @@ body {
     top: 15px; 
     right: 15px; 
     background-color: red;
-    color: #ffffff;
+    color: #FFFFFF;
     font-size: 32px;
     padding: 30px;
 }
@@ -111,6 +111,65 @@ body {
 .notification-container{
     position: relative;
 }
+/* hero section - 1 */
+.first-section {
+    color: #FFFFFF;
+    font-size: 32px;
+    padding: 30px;
+}
+
+.hero-section {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 60px;
+}
+.hero-image {
+    left: -270px;
+    top: -100px;
+    padding: 160px;
+}
+.hero-section .left-hero h1 {
+    font-family: 'SF Pro Display', sans-serif;
+    font-weight: 700;
+    font-size: 84px;
+    line-height: 100px;
+    letter-spacing: -1px;
+    color: #232340;
+    margin-bottom: -100px;
+}
+.hero-section .left-hero p {
+    font-family: 'SF Pro Display', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    color: #606060;
+    margin-bottom: 30px;
+    margin-top: 130px;
+}
+.hero-section .left-hero {
+    width: 557px;
+    padding: 66px;
+}
+.hero-section .right {
+    align-self: flex-end;
+}
+.image-container {
+    position: relative;
+    width: 800px; 
+    height: 200px;
+    left: 100px;
+}
+.image-container img {
+    position: absolute;
+    margin-top: -205px;
+    margin-left: -850px;
+    z-index: 1;
+}
+
 @media (max-width: 600px) { 
     /* header */
     .logo {
