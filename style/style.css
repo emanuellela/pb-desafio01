@@ -460,19 +460,16 @@ body {
 }
 /*- fourth-section -*/
 .fourth-section {
-    background-color:white;
+    background-color:FFFFFF;
 }
-
 .title-famp {
     margin-left: 280px;
     margin-top: -23px;
     color: #5468E7;
 }
-
 .subtitle-famp {
     width: 100%;
 }
-
 .subtitle-famp h2 {
     font-family: 'SF Pro Display', sans-serif;
     font-weight: 520;
@@ -484,7 +481,6 @@ body {
     margin-top: -56px;
     margin-left: 280px;
 }
-
 .fourth-section .subtitle-famp p {
     font-family: 'SF Pro Display', sans-serif;
     font-weight: 400;
@@ -494,13 +490,11 @@ body {
     margin-top: 60px;
     margin-left: 280px;
 }
-
 .image-famp{
     margin-left: 360px;
     margin-top: -650px;
     padding: 50px;
 }
-
 .titulo-famp h3 {
     font-family: 'SF Pro Display', sans-serif;
     font-weight: 520;
@@ -508,14 +502,13 @@ body {
     top: -130px;
     line-height: 60px;
     letter-spacing: -1px;
-    color: black;
+    color: 000000;
     margin-bottom: 0;
     margin-left: 130px;
     margin-bottom: 50px;
     position: relative;
     margin-top: 150px;
 }
-
 .text-famp p {
     font-family: 'SF Pro Display', sans-serif;
     font-weight: 400;
@@ -525,7 +518,6 @@ body {
     margin-top: -300px;
     margin-left: 132px;
 }
-
 .vol-dois {
     margin-top: 150px;
     margin-left: 600px;
@@ -534,7 +526,6 @@ body {
     align-items: center;
     color: #232340;
 }
-
 .illustration {
     margin-top: -300px;
     margin-left: -700px;
@@ -543,7 +534,6 @@ body {
     align-items: center;
     color: #232340;
 }
-
 .vol-tres {
     margin-top: -220px;
     margin-left: 600px;
@@ -552,7 +542,6 @@ body {
     align-items: center;
     color: #232340;
 }
-
 .sapiens {
     margin-top: -320px;
     margin-left: -580px;
