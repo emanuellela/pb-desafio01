@@ -3,13 +3,21 @@
     background-color:#f5f1f1;
 }
 .title-wwd {
-    margin-left: 280px;
-    margin-top: -23px;
     color: #5468E7;
+    margin-left: 11%;
+
 }
 .subtitle-wwd {
     width: 100%;
 }
+
+.whatwedo {
+    display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+
 .subtitle-wwd h2 {
     font-family: 'SF Pro Display', sans-serif;
     font-weight: 520;

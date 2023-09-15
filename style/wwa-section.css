@@ -2,7 +2,6 @@
 .second-section {
     background-color:#232340;
     color: white;
-    font-size: 32px;
     padding: 30px;
 }
 .title-wwa {
@@ -85,10 +84,7 @@
     margin-bottom: 30px;
     margin-left: 282px;
 }
-.btn.light {
-    background: var(--primary-color);
-    margin-left: 280px;
-}
+
 .num .doisoito {
     margin-left: 900px;
     margin-top: -260px;
@@ -114,36 +110,9 @@
     display: inline-block;
     position: absolute;
 }  
-.buttons-container {
-    display: flex;
-    align-items: center;
-    gap: 8px;
-}
-.button-circle {
-    background-color: var(--primary-color);
-    padding: 14px 20px;
-    border-radius: 100%;
-    font-size: 32px;
-    text-decoration: none;
-    color: white;
-}
-.button-back {
-    padding: 14px 20px;
-    border-radius: 100%;
-    font-size: 32px;
-    text-decoration: none;
-    color: white;
-    text-decoration: none;
-}
-.container-wwa {
-    display: flex;
-    flex-direction: row;
-    align-items: start;
-    margin-left: 25%;
-    gap: 25%;
-}
 .h2-wwa {
     margin: 0px;
+    font-size: 32px;
 }
 .btnc.circle {
     background: var(--primary-color);
