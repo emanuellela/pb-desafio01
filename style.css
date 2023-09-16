@@ -884,13 +884,15 @@ body {
         margin-bottom: -50px;
     }
     .text-wwa h3 {
-
         font-size: 35px;
-
         margin-bottom: 0;
         margin-top: 0;
         margin-left: 0;
         margin-bottom: 0;
+    }
+    .second-section .text-wwa p {
+        margin-bottom: 0;
+        margin-left: 0;
     }
 
 
