@@ -878,12 +878,20 @@ body {
         font-size: 50%;
     }
     .coluna-wwa ul {
-        padding: 0; /* Remove o espaçamento interno padrão da lista */
+        padding: 0; 
     }
     .coluna-wwa li {
-        margin-bottom: -50px; /* Ajuste o valor para diminuir o espaço vertical entre os elementos */
+        margin-bottom: -50px;
     }
-    
+    .text-wwa h3 {
+
+        font-size: 35px;
+
+        margin-bottom: 0;
+        margin-top: 0;
+        margin-left: 0;
+        margin-bottom: 0;
+    }
 
 
     /* hello section - 6 */
