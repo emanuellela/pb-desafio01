@@ -159,9 +159,9 @@ body {
 }
 .hero-section .left-hero p {
     font-family: 'SF Pro Display', sans-serif;
+    color: #606060;
     font-size: 17px; 
     line-height: 30px;
-    color: #606060;
     margin-bottom: 30px;
     margin-top: -30px;
 }
@@ -726,7 +726,7 @@ body {
 }
 .copyright {
     font-family: 'SF Pro Display', sans-serif;
-   color: #ADADAD;
+    color: #ADADAD;
     font-weight: 300;
     font-size: 16px;
     line-height: 32px;
@@ -863,6 +863,18 @@ body {
         color: #8B8B8B;
         margin-left: 0;
         margin-top: 0;
+    }
+    .desktop-wwa img{
+        width: 400px;
+        margin-left: -230px;
+    }
+    .l1,
+    .l2,
+    .l3, 
+    .l4,
+    .l5 {
+        margin-left: -40px;
+        font-size: 60%;
     }
 
     /* hello section - 6 */
