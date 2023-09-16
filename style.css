@@ -59,11 +59,11 @@ body {
 }
 /* header */
 .cabecalho {
+    background-color: #FFFFFF;
+    color: #FFFFFF;
     position: fixed;
     top: 0;
     left: 0;
-    background-color: #FFFFFF;
-    color: #FFFFFF;
     display: flex;
     width: 100%;
     align-items: center;
@@ -151,9 +151,9 @@ body {
 }
 .hero-section .left-hero h1 {
     font-family: 'SF Pro Display', sans-serif;
+    color: #232340;
     font-size: 80px; 
     line-height: 56px; 
-    color: #232340;
     letter-spacing: -1px;
     line-height: 80px;
 }
@@ -669,56 +669,56 @@ body {
     width: 100px;
     float: left;
     margin-top: -100px;
-  }
-  .circle-white {
+}
+.circle-white {
     float: right;
-  }
-  .text-sh {
+}
+.text-sh {
+    color: #FFFFFF;
     text-align: left;
     margin-right: 640px;
-    color: #FFFFFF;
     position: relative;
     z-index: 1;
     margin-top: 140px;
-  }
-  .invest {
+}
+.invest {
     color: #FFFFFF;
     position: relative;
     z-index: 1;
     margin-left: 390px;
-  }
-  .say-hello::before,
-  .say-hello::after {
-      content: "";
-      position: absolute;
-      background-color: #FFFFFF;
-  }
-  .say-hello::before {
-      content: "";
-      position: absolute;
-      bottom: 0;
-      left: 50%;
-      width: 2px;
-      height: 50%;
-      transform: translateX(-50%);
-  }
-  .say-hello::after {
-      top: 50%;
-      left: 0;
-      width: 100%;
-      height: 2px;
-      transform: translateY(-50%);
-  }
-  .symbol {
+}
+.say-hello::before,
+.say-hello::after {
+    content: "";
+    position: absolute;
+    background-color: #FFFFFF;
+}
+.say-hello::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 2px;
+    height: 50%;
+    transform: translateX(-50%);
+}
+.say-hello::after {
+    top: 50%;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    transform: translateY(-50%);
+}
+.symbol {
     margin-bottom: 80px;
-  }
-  .img-sh {
+}
+.img-sh {
     float: left;
     margin-right: 90px;
-  }
-  .word-sh {
+}
+.word-sh {
     margin-top: -20px;
-  }
+}
 /* footer */
 .logo-foo {
     width: 140px;
@@ -726,10 +726,11 @@ body {
 }
 .copyright {
     font-family: 'SF Pro Display', sans-serif;
+   color: #ADADAD;
     font-weight: 300;
     font-size: 16px;
     line-height: 32px;
-    color: #ADADAD;
+
     margin-top: 10px;
 }
 .logo-footer {
@@ -770,8 +771,8 @@ body {
 }
 .social {
     display: flex;
-    gap: 40px;
     flex-direction: row;
+    gap: 40px;
     align-items: center;
 }
 .divisor {
@@ -779,8 +780,8 @@ body {
     width: 100%;
 }
 .follow {
-    color:#5468E7;
     font-family: 'SF Pro Display', sans-serif;
+    color:#5468E7;
     font-weight: 300;
     font-size: 16px;
     line-height: 32px;
