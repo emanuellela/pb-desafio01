@@ -867,15 +867,24 @@ body {
     .desktop-wwa img{
         width: 400px;
         margin-left: -230px;
+        margin-top: 400px;
     }
     .l1,
     .l2,
     .l3, 
     .l4,
     .l5 {
-        margin-left: -40px;
-        font-size: 60%;
+
+        font-size: 50%;
     }
+    .coluna-wwa ul {
+        padding: 0; /* Remove o espaçamento interno padrão da lista */
+    }
+    .coluna-wwa li {
+        margin-bottom: -50px; /* Ajuste o valor para diminuir o espaço vertical entre os elementos */
+    }
+    
+
 
     /* hello section - 6 */
     .say-hello {
