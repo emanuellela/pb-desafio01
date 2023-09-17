@@ -340,7 +340,6 @@ body {
 .subtitle-wwd h2 {
     font-family: 'SF Pro Display', sans-serif;
     color: #232340;
-    font-weight: 520;
     font-size: 70px;
     line-height: 75px;
     letter-spacing: -1px;
@@ -741,13 +740,12 @@ body {
     display: flex;
 }
 .nav-footer {
-    align-items: center;
-    display: flex; 
-    justify-content: center; 
-    padding: 80px;
-    align-items: center;
     width: 100%;
+    display: flex; 
     flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+    padding: 80px;
 }
 .lista-footer {
     display: flex; 
@@ -763,10 +761,9 @@ body {
 }
 .pfooter { 
     font-family: 'SF Pro Display', sans-serif;
-    font-weight: 300;
+    color: #606060;
     font-size: 18px;
     line-height: 32px;
-    color: #606060;
     margin-top: 10px;
 }
 .social {
@@ -782,7 +779,6 @@ body {
 .follow {
     font-family: 'SF Pro Display', sans-serif;
     color:#5468E7;
-    font-weight: 300;
     font-size: 16px;
     line-height: 32px;
 }
@@ -830,7 +826,7 @@ body {
         width: 12px;
         margin-bottom: 5px;
     }
-    /* content */
+    /* section - 1 */
     .first-section {
         margin-left: -60px;
         padding: 0;
@@ -842,7 +838,7 @@ body {
         width: 80%;
         margin-left: 35px;
     }
-    /* who we are section  - 2 */
+    /* who we are - 2 */
     .quadrado-wwa {
         margin-left: -50px;
     }
@@ -874,7 +870,6 @@ body {
     .l3, 
     .l4,
     .l5 {
-
         font-size: 50%;
     }
     .coluna-wwa ul {
@@ -898,8 +893,26 @@ body {
         margin-top: 20px;
         margin-left: 0;
     }
-
-
+    /* what we do - 3 */
+    .whatwedo {
+        margin-left: -30px;
+    }
+    .subtitle-wwd h2 {
+        font-size: 46px;
+        line-height: 45px;
+        margin-left: 0;
+        letter-spacing: 0;
+    }
+    .button-back {
+        margin-right: 30px;
+    }
+    .buttons-container2 {
+        margin-bottom: 260px;
+    }
+    .num .doisoito {
+        margin-left: 0;
+        margin-top: 0;
+    }
     /* hello section - 6 */
     .say-hello {
         width: 100%;
@@ -908,7 +921,7 @@ body {
         top: 0;
         left: 0;
     }
-   .bubble {
+    .bubble {
         width: 100px;
         float: left;
         margin-top: -100px;
