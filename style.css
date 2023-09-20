@@ -165,14 +165,17 @@ body {
     margin-bottom: 30px;
     margin-top: -30px;
 }
-.image-container img {
+.image-hero img {
     width: 90%;
     height: auto;
 }
-.image-container {
+.image-hero {
     position: relative;
     left: 0;
+    display: flex;
+    justify-content: center;
 }
+
 /* who we are - 2 */
 .buttons-container {
     display: flex;
@@ -349,11 +352,11 @@ body {
 }
 .text-wwd h3 {
     font-family: 'SF Pro Display', sans-serif;
+    color: #5468E7;
     font-weight: 520;
     font-size: 50px;
     line-height: 60px;
     letter-spacing: -1px;
-    color: #5468E7;
     margin-bottom: 0;
     margin-top: 170px;
     margin-left: 280px;
@@ -361,21 +364,17 @@ body {
 }
 .third-section .text-wwd p {
     font-family: 'SF Pro Display', sans-serif;
+    color: #606060;
     font-weight: 400;
     font-size: 18px;
     line-height: 32px;
-    color: #606060;
     margin-bottom: 30px;
     margin-left: 282px;
 } 
-.image-container {
-    display: flex;
-    justify-content: center;
-}
 .four-cards {
     display: flex;
-    justify-content: center; 
     padding: 80px;
+    justify-content: center; 
     align-items: center;
     text-align: center;
     flex-wrap: wrap;
@@ -385,19 +384,19 @@ body {
 .four-cards .two-card,
 .four-cards .three-card,
 .four-cards .four-card {
-    border-radius: 48px;
     background: #FFFFFF;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s ease;
+    border-radius: 48px;
     padding: 32px 8px;
     z-index: 10;
     position: relative;
     width: 230px;
     height: 350px;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
     display: flex;
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    transition: transform 0.3s ease;
     margin: 10px;
 }
 .info {
@@ -473,12 +472,12 @@ body {
 }
 .titulo-famp h3 {
     font-family: 'SF Pro Display', sans-serif;
+    color: #000000;
     font-weight: 520;
     font-size: 45px;
     top: -130px;
     line-height: 60px;
     letter-spacing: -1px;
-    color: 000000;
     margin-bottom: 0;
     margin-left: 130px;
     margin-bottom: 50px;
@@ -586,10 +585,10 @@ body {
 .hiring-cards .info-dois,
 .hiring-cards .info-tres,
 .hiring-cards .info-quatro {
-    border-radius: 48px;
     background: #FFFFFF;
     color: #232340;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    border-radius: 48px;
     padding: 32px 32px;
     z-index: 10;
     position: relative;
@@ -693,13 +692,13 @@ body {
     background-color: #FFFFFF;
 }
 .say-hello::before {
+    transform: translateX(-50%);
     content: "";
     position: absolute;
     bottom: 0;
     left: 50%;
     width: 2px;
     height: 50%;
-    transform: translateX(-50%);
 }
 .say-hello::after {
     top: 50%;
@@ -729,7 +728,6 @@ body {
     font-weight: 300;
     font-size: 16px;
     line-height: 32px;
-
     margin-top: 10px;
 }
 .logo-footer {
@@ -834,7 +832,7 @@ body {
     .hero-section .left-hero h1 {
         font-size: 70px; 
     }
-    .image-container img {
+    .image-hero img {
         width: 80%;
         margin-left: 35px;
     }
@@ -900,17 +898,38 @@ body {
     .subtitle-wwd h2 {
         font-size: 46px;
         line-height: 45px;
-        margin-left: 0;
-        letter-spacing: 0;
+        margin-left: -20px;
     }
     .button-back {
-        margin-right: 30px;
+        margin-right: 0;
     }
     .buttons-container2 {
         margin-bottom: 260px;
     }
     .num .doisoito {
         margin-left: 0;
+        margin-top: 0;
+    }
+    .four-cards .one-card,
+    .four-cards .two-card,
+    .four-cards .three-card,
+    .four-cards .four-card {
+        width: 200px;
+        height: 230px;
+        justify-content: space-between; 
+        margin-right: 42px;
+        position:sticky;
+        margin: 6px;
+    }
+    .four-cards {
+        padding: 0;
+        align-items:safe;
+        text-align: left;
+        gap: 0;
+        margin-bottom: 40px;
+        margin-top: 30px;
+    }
+    .info {
         margin-top: 0;
     }
     /* hello section - 6 */
@@ -950,20 +969,20 @@ body {
         position: absolute;
     }
     .say-hello::before {
+        transform: translateX(-50%);
         content: "";
         position: absolute;
         bottom: 0;
         left: 50%;
         width: 2px;
         height: 50%;
-        transform: translateX(-50%);
     }
     .say-hello::after {
+        transform: translateY(-50%);
         top: 50%;
         left: 0;
         width: 100%;
         height: 2px;
-        transform: translateY(-50%);
     }
     .symbol {
         margin-bottom: 80px;
