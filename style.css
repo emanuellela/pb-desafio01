@@ -107,6 +107,10 @@ body {
     display: flex;
     align-items: center;
     gap: 64px;
+    transition: color 0.3s ease;
+}
+.lista-header li a:hover {
+    color: #5468E7; 
 }
 .lista-header li a {
     font-family:'SF Pro Display', sans-serif;
@@ -175,13 +179,12 @@ body {
     display: flex;
     justify-content: center;
 }
-
 /* who we are - 2 */
 .buttons-container {
     display: flex;
     align-items: center;
+    margin-left: 200px;
     gap: 8px;
-    margin-left: 180px;
 }
 .button-circle {
     background-color: var(--primary-color);
@@ -256,17 +259,15 @@ body {
     color: #FFFFFF;
 }
 .desktop-wwa {
-    margin-left: 300px;
-    margin-top: -630px;
+    margin-left: 230px;
+    margin-top: -640px;
 }
 .text-wwa h3 {
     font-family: 'SF Pro Display', sans-serif;
     color: #FFFFFF;
-    font-weight: 520;
     font-size: 50px;
     line-height: 60px;
     letter-spacing: -1px;
-    margin-bottom: 0;
     margin-top: 170px;
     margin-left: 280px;
     margin-bottom: 50px;
@@ -274,7 +275,6 @@ body {
 .second-section .text-wwa p {
     font-family: 'SF Pro Display', sans-serif;
     color: #606060;
-    font-weight: 400;
     font-size: 18px;
     line-height: 32px;
     margin-bottom: 30px;
@@ -296,11 +296,13 @@ body {
     margin-left: 11%;
 }
 .title-textwwa{
-    margin-left: 11%;
+    margin-left: 100px;
 }
 .h2-wwa {
     margin: 0px;
-    font-size: 32px;
+    font-size: 35px;
+    margin-top: 30px;
+    margin-left: -45px;
 }
 /* what we do - 3 */
 .buttons-container2 {
@@ -308,8 +310,8 @@ body {
     align-items: center;
     gap: 8px;
     justify-content: flex-end;
-    margin-left: 80px;
     margin-top: -150px;
+    margin-left: 130px;
 }
 .container-wwd {
     display: flex;
@@ -325,11 +327,11 @@ body {
     text-decoration: none;
 }
 .third-section {
-    background-color:#f5f1f1;
+    background-color:#f7f3f3;
 }
 .title-wwd {
     color: #5468E7;
-    margin-left: 11%;
+    margin-left: 100px;
 }
 .subtitle-wwd {
     width: 100%;
@@ -348,8 +350,8 @@ body {
     letter-spacing: -1px;
     margin-bottom: 0;
     margin-top: -56px;
-    margin-left: 280px;
-}
+    margin-left: 233px;
+  }
 .text-wwd h3 {
     font-family: 'SF Pro Display', sans-serif;
     color: #5468E7;
@@ -448,7 +450,6 @@ body {
 .subtitle-famp h2 {
     color: #232340;
     font-family: 'SF Pro Display', sans-serif;
-    font-weight: 520;
     font-size: 70px;
     line-height: 75px;
     letter-spacing: -1px;
@@ -459,7 +460,6 @@ body {
 .fourth-section .subtitle-famp p {
     font-family: 'SF Pro Display', sans-serif;
     color: #606060;
-    font-weight: 400;
     font-size: 18px;
     line-height: 32px;
     margin-left: 285px;
@@ -473,12 +473,10 @@ body {
 .titulo-famp h3 {
     font-family: 'SF Pro Display', sans-serif;
     color: #000000;
-    font-weight: 520;
     font-size: 45px;
     top: -130px;
     line-height: 60px;
     letter-spacing: -1px;
-    margin-bottom: 0;
     margin-left: 130px;
     margin-bottom: 50px;
     position: relative;
@@ -487,7 +485,6 @@ body {
 .text-famp p {
     font-family: 'SF Pro Display', sans-serif;
     color: #606060;
-    font-weight: 400;
     font-size: 18px;
     line-height: 32px;
     margin-top: -300px;
@@ -511,20 +508,20 @@ body {
 }
 .vol-tres {
     color: #232340;
-    margin-top: -220px;
-    margin-left: 600px;
     display: flex;
     flex-direction: column;
+    margin-top: -220px;
+    margin-left: 600px;
     align-items: center;
 }
 .sapiens {
     color: #232340; 
     margin-top: -320px;
     margin-left: -580px;
+    margin-bottom: 50px;
     display: flex;
     flex-direction: column;
     align-items: center; 
-  
 }
 /* we are hiring - 5 */
 .fifth-section {
@@ -544,7 +541,6 @@ body {
 .hiring-cards {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: end;
     padding: 80px;
     margin-left: auto;
@@ -552,30 +548,9 @@ body {
     position: relative;
     top: -500px;
     line-height: 1.5;
-    margin-bottom: -590px;
+    margin-bottom: -500px;
     flex-wrap: wrap;
-}
-.hiring-card {
-    background: #FFFFFF;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
-    display: flex;
-    flex-direction: column;
-    border-radius: 48px;
-    padding: 32px 8px;
-    z-index: 10;
-    width: 293px;
-    height: 560px;
-    justify-content: center;
-    text-align: center;
-    transition: transform 0.3s ease;
-    margin: 10px;
-}
-.hiring-card img {
-    display: block;
-    margin: 0 auto;
-}
-.hiring-card:hover {
-    transform: scale(1.05);
+    margin-top: 430px;
 }
 .jobs {
     margin-left: 60px;
@@ -592,8 +567,8 @@ body {
     padding: 32px 32px;
     z-index: 10;
     position: relative;
-    width: 568px;
-    height: 247px;
+    width: 550px;
+    height: 230px;
     margin-bottom: 20px;
 }
 .hiring-cards .info-um:hover,
@@ -606,11 +581,12 @@ body {
 }
 .circle-hiring {
     margin-left: 280px;
+    position: relative;
+    z-index: 2; 
 }
 .subtitle-hiring h1 {
     font-family: 'SF Pro Display', sans-serif;
     color: #232340;
-    font-weight: 520;
     font-size: 70px;
     line-height: 75px;
     letter-spacing: -1px;
@@ -621,7 +597,6 @@ body {
 .subtitle-hiring p {
     font-family: 'SF Pro Display', sans-serif;
     color: #606060;
-    font-weight: 400;
     font-size: 18px;
     line-height: 32px;
     margin-bottom: 90px;
@@ -632,7 +607,11 @@ body {
     flex-direction: row;
     gap: 8px;
 }
-/* hello section - 6 */
+.flex-hiring {
+    display: flex;
+    flex-direction: row;
+}
+/* hello - 6 */
 .sixth-section {
     background-color:#FFFFFF;
 }
@@ -644,24 +623,14 @@ body {
     align-items: center;
     border-radius: 48px;
     justify-content: center; 
-    margin-left: 222px;
-    top: 90px;
+    margin-inline: auto;
     line-height: 1.5;
-    left: -30px;
     padding: 32px 8px;
     position: relative;
-    width: 972px;
+    width: 850px;
     height: 768px;
     margin-top: 50px;
-}
-@media (max-width: 768px) {
-    .say-hello {
-        width: 100%;
-        height: auto;
-        margin-left: 0;
-        top: 0;
-        left: 0;
-    }
+    top: 90px;
 }
 .bubble {
     width: 100px;
@@ -673,11 +642,11 @@ body {
 }
 .text-sh {
     color: #FFFFFF;
-    text-align: left;
-    margin-right: 640px;
+    margin-right: 540px;
     position: relative;
     z-index: 1;
-    margin-top: 140px;
+    margin-top: 190px;
+    margin-bottom: -30px;
 }
 .invest {
     color: #FFFFFF;
@@ -688,8 +657,8 @@ body {
 .say-hello::before,
 .say-hello::after {
     content: "";
-    position: absolute;
     background-color: #FFFFFF;
+    position: absolute;
 }
 .say-hello::before {
     transform: translateX(-50%);
@@ -725,7 +694,6 @@ body {
 .copyright {
     font-family: 'SF Pro Display', sans-serif;
     color: #ADADAD;
-    font-weight: 300;
     font-size: 16px;
     line-height: 32px;
     margin-top: 10px;
@@ -752,10 +720,14 @@ body {
     margin-top: 20px;
 }
 .lista-footer li {
-    margin-right: 35px; /* Espaçamento da lista */
+    margin-right: 35px; 
 }
 .lista-footer li a {
-    text-decoration: none; /* Remove o sublinhado */
+    text-decoration: none; 
+    transition: color 0.3s ease;
+}
+.lista-footer li a:hover {
+    color: #5468E7; 
 }
 .pfooter { 
     font-family: 'SF Pro Display', sans-serif;
@@ -776,15 +748,37 @@ body {
 }
 .follow {
     font-family: 'SF Pro Display', sans-serif;
-    color:#5468E7;
+    color:#ADADAD;
     font-size: 16px;
     line-height: 32px;
+    text-decoration: none;
+    margin-bottom: 5px;
+    transition: color 0.3s ease;
+}
+.follow:hover {
+    color: #5468E7;
 }
 .container-social {
     display: flex;
     flex-direction: row;
     width: 100%;
     justify-content: space-between;
+}
+.img-not6 img {
+    width: 18px;
+    margin-left: -6px;
+    margin-top: 13px;
+}
+.img-not2 img {
+    width: 18px;
+    margin-left: -6px;
+    margin-top: 13px;
+}
+.info-um p {
+    margin-top: 0;
+}
+.info-quatro p {
+    margin-top: 0;
 }
 @media (max-width: 600px) { 
     /* header */
@@ -824,7 +818,7 @@ body {
         width: 12px;
         margin-bottom: 5px;
     }
-    /* section - 1 */
+    /* hero - 1 */
     .first-section {
         margin-left: -60px;
         padding: 0;
@@ -838,11 +832,14 @@ body {
     }
     /* who we are - 2 */
     .quadrado-wwa {
-        margin-left: -50px;
+        margin-left: -20px;
     }
     .h2-wwa {
         margin-left: -20px;
         font-size: 19px;
+    }
+    .title-textwwa {
+        margin-left: 8px;
     }
     .container-wwa {
         display: 0;
@@ -858,10 +855,10 @@ body {
         margin-left: 0;
         margin-top: 0;
     }
-    .desktop-wwa img{
+    .desktop-wwa img {
         width: 360px;
-        margin-left: -270px;
-        margin-top: 390px;
+        margin-left: -200px;
+        margin-top: 410px;
     }
     .l1,
     .l2,
@@ -877,13 +874,14 @@ body {
         margin-bottom: -50px;
     }
     .text-wwa h3 {
-        font-size: 35px;
+        font-size: 25px;
         margin-bottom: 0;
         margin-top: 0;
         margin-left: 0;
         margin-bottom: 0;
     }
     .second-section .text-wwa p {
+        font-size: 13px;
         margin-bottom: 0;
         margin-left: 0;
     }
@@ -893,22 +891,30 @@ body {
     }
     /* what we do - 3 */
     .whatwedo {
-        margin-left: -30px;
+        margin-left: 0;
+    }
+    .third-section {
+        margin-bottom: 40px;
     }
     .subtitle-wwd h2 {
-        font-size: 46px;
+        font-size: 18px;
         line-height: 45px;
-        margin-left: -20px;
+        margin-left: -1px;
+        white-space: nowrap;
+        letter-spacing: 0;
+        line-height: 35px;
     }
     .button-back {
         margin-right: 0;
     }
     .buttons-container2 {
-        margin-bottom: 260px;
+        margin-bottom: 4px;
+        margin-left: 30px;
     }
     .num .doisoito {
-        margin-left: 0;
         margin-top: 0;
+        margin-left: 10px;
+        width: 90%;
     }
     .four-cards .one-card,
     .four-cards .two-card,
@@ -932,66 +938,204 @@ body {
     .info {
         margin-top: 0;
     }
-    /* hello section - 6 */
+    .title-wwd {
+        margin-left: 8px;
+    }
+    /* famous projets - 4 */
+    .title-famp {
+        margin-left: 88px;
+    }
+    .subtitle-famp h2 {
+        font-size: 50px;
+        margin-left: 45px;
+    }
+    .fourth-section .subtitle-famp p {
+        font-size: 13px;
+        line-height: 32px;
+        margin-left: 50px;
+        margin-top: -50px;
+    }
+    .btn.flight {
+        margin-top: 0;
+        margin-left: 50px;
+    }
+    .bottom-button-container {
+        justify-content: center;
+        padding: 30px;
+        margin-left: -640px;
+        margin-top: 15px;
+    }
+    .subtitle-famp h2 {
+        color: #232340;
+        font-family: 'SF Pro Display', sans-serif;
+        font-size: 40px;
+        margin-top: 5px;
+        margin-left: 50px;
+    }
+    .titulo-famp h3 {
+        font-size: 34px;
+        margin-left: 50px;
+    }
+    .text-famp p {
+        font-size: 12px;
+        line-height: 23px;
+        margin-top: -300px;
+        margin-left: 56px;
+    }
+    .image-famp {
+        margin-left: 50px;
+        margin-top: -220px;
+    }
+    .image-famp img{
+        width: 390px;
+    }
+    .vol-dois {
+        font-size: 13px;
+        margin-left: 0;
+    }
+    .vol-dois img {
+        width: 300px;
+    }
+    .vol-dois p{
+        font-size: 11px;
+    }
+    .illustration {
+        font-size: 13px;
+        margin-top: 0;
+        margin-left: 0;
+    }
+    .illustration img {
+        width: 300px;
+    }
+    .illustration p {
+        font-size: 11px;
+    }
+    .vol-tres {
+        font-size: 13px;
+        margin-top: 0;
+        margin-left: 0;
+    }
+    .vol-tres img {
+        width: 300px;
+        margin-left: 10px;
+    }
+    .vol-tres p{
+        font-size: 11px;
+    }
+    .sapiens {
+        font-size: 13px;
+        margin-top: 0;
+        margin-left: 0;
+    }
+    .sapiens img {
+        width: 300px;
+        margin-left: 20px;
+    }
+    .sapiens p {
+        font-size: 11px;
+    }
+    /* we are hiring - 5 */
+    .title-hiring {
+        margin-left: 88px;
+    }
+    .subtitle-hiring h1 {
+        font-size: 40px;
+        margin-left: 45px;
+        margin-top: -70px;
+    }
+    .subtitle-hiring p {
+        font-size: 13px;
+        margin-left: 45px;
+    }
+    .jobs p {
+        display: block ruby;
+        margin-top: 33px;
+    }
+    .circle-hiring {
+        margin-left: 50px;
+    }
+    .hiring-cards {
+        padding: 0;
+        position:0;
+        align-items: center;
+        top: -40px;
+        margin-top: 0;
+    }
+    .hiring-cards .info-um, 
+    .hiring-cards .info-dois, 
+    .hiring-cards .info-tres, 
+    .hiring-cards .info-quatro {
+        padding: 3px 33px;
+        width: 250px;
+        height: 150px;
+    }
+    .flex-hiring {
+        flex-direction: column;
+        margin-bottom: 500px;
+    }
+    /* hello - 6 */
     .say-hello {
         width: 100%;
         height: auto;
         margin-left: 0;
         top: 0;
         left: 0;
+        margin-bottom: -90px;
+    }
+    text-sh {
+        color: #FFFFFF;
+        text-align: right;
+        margin-right: 220px;
+        position: static;
+        width: 486px;
+        height: 184px;
     }
     .bubble {
         width: 100px;
         float: left;
         margin-top: -100px;
+        margin-left: 255px;
+    }
+    .invest {
+        margin-left: 230px;
+    }
+    .invest img {
+        margin-left: 0;
     }
     .circle-white {
         float: right;
+        margin-top: 30px;
+        margin-right: 20px;
     }
     .text-sh {
         color: #FFFFFF;
         text-align: left;
-        margin-right: 640px;
-        position: relative;
+        margin-right: 250px;
         z-index: 1;
-        margin-top: 140px;
+        margin-top: 160px;
     }
-    .invest {
-        color: #FFFFFF;
-        position: relative;
-        z-index: 1;
-        margin-left: 390px;
+    /* footer */
+    .copyright {
+        font-size: 11px;
+        white-space: nowrap;
     }
-    .say-hello::before,
-    .say-hello::after {
-        content: "";
-        background-color: #FFFFFF;
-        position: absolute;
+    .follow {
+        font-size: 12px;
+        white-space: nowrap;
+        margin-right: 30px;
     }
-    .say-hello::before {
-        transform: translateX(-50%);
-        content: "";
-        position: absolute;
-        bottom: 0;
-        left: 50%;
-        width: 2px;
-        height: 50%;
+    .lista-footer {
+        font-size: 13px;
+        margin-left: 30px;
     }
-    .say-hello::after {
-        transform: translateY(-50%);
-        top: 50%;
-        left: 0;
-        width: 100%;
-        height: 2px;
+    .pfooter {
+        font-size: 11px;
+        line-height: 20px;
+        margin-top: 0;
+        margin-left: 10px;
+        white-space: nowrap;
     }
-    .symbol {
-        margin-bottom: 80px;
-    }
-    .img-sh {
-        float: left;
-        margin-right: 90px;
-    }
-    .word-sh {
-        margin-top: -20px;
+    .social {
+        gap: 10px;
     }
 }
