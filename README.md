@@ -1,28 +1,30 @@
-<h2 align="center">Technical Challenge 01 - Folio Agency</h2>
+<h2 align="center">Technical Challenge 01 - Folio Agency 😋</h2>
 
-> Status do projeto: em andamento.
+> Project status: concluded ✔️
 
-<h3 <h1 align="left"> Iniciando o front-end</h3>
+<h3 <h1 align="left">Project Execution</h3>
 
-Clique em "Open with Live Server" o arquivo HTML do menu contextual para um servidor local iniciar e abrir no navegador.
+- Using the VS Code, open with Live Server in the contextual menu HTML file for a local server to launch and open in the browser.
 
-Ou, no terminal do VS Code - navegue até a pasta do seu projeto HTML usando o comando:
+- Or in the terminal, navigate to your HTML project folder using the command:
 
 ```
 cd pb-desafio01
 ```
 
-Com o Node.js instalado e o pacote http-server globalmente, você pode executar o comando:
+- With Node.js installed and the http-server package globally, you can run the command:
 
 ```
 npx http-server
 ```
 
-Isso iniciará um servidor local e fornecerá um URL no terminal.
+- This will start a local server and provide a URL in the terminal.
 
-## Tecnologias:
-  - Mozilla Firefox 114.0.1;
-  - Visual Studio Code 1.79.2.
+- Or just open the html file with some browser.
+
+### Technologies:
+  - Mozilla Firefox 117.0.1;
+  - Visual Studio Code 1.82.2.
 
 <details>
   <summary><b>Front-End</b></summary>
