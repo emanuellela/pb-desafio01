@@ -130,6 +130,20 @@ body {
 .notification-container{
     position: relative;
 }
+.bottom {
+    margin-left: 20px;
+    color: #606060;
+}
+.circle-hero {
+    margin-left: 280px;
+    position: relative;
+    z-index: 2; 
+}
+.scroll-down {
+    display: flex;
+    flex-direction: row;
+    margin-left: -170px;
+}
 /* hero section - 1 */
 .content {
     width: 100%;
@@ -170,8 +184,9 @@ body {
     margin-top: -30px;
 }
 .image-hero img {
-    width: 90%;
+    width: 100%;
     height: auto;
+    margin-right: 100px;
 }
 .image-hero {
     position: relative;
@@ -712,6 +727,7 @@ body {
     justify-content: center; 
     align-items: center;
     padding: 80px;
+    color: #606060;
 }
 .lista-footer {
     display: flex; 
@@ -807,15 +823,6 @@ body {
         margin-inline-start: initial;
         margin-left: -20px;
     }
-    /*.lista-header {
-        flex-direction: initial;
-        gap: 15px;
-        margin-left: 30px;
-        margin-right: 18px;
-    }
-    .lista-header li a {
-        font-size: 12px;
-    }*/
     .notifica-dois {
         display: none;
     }
@@ -859,6 +866,13 @@ body {
         background-color: #333;
         transition: 0.4s;
         margin-left: 190px;
+    }
+    .circle-hero {
+        width: 30px;
+    }
+    .bottom p {
+        font-size: 12px;
+        margin-top: 15px;
     }
     /* hero - 1 */
     .first-section {
@@ -1170,13 +1184,6 @@ body {
         font-size: 13px;
         margin-left: 30px;
     }
-    .pfooter {
-        font-size: 11px;
-        line-height: 20px;
-        margin-top: 0;
-        margin-left: 10px;
-        white-space: nowrap;
-    }
     .social {
         gap: 10px;
     }
@@ -1207,7 +1214,7 @@ body {
     }
     .dropdown-content a {
         text-decoration: none;
-        color: #333;
+        color: #606060;
         display: block;
     }
     .dropdown-button:focus + .dropdown-content {
@@ -1219,8 +1226,5 @@ body {
     .pfooter-cut {
         display: block;
         margin-bottom: 30px;
-    }
-    .pfooter::after {
-        content: "Agency is a full-service agency, busy designing and building.";
     }
 }
