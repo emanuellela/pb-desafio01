@@ -130,31 +130,6 @@ body {
 .notification-container{
     position: relative;
 }
-.bar {
-    width: 100%;
-    height: 3px;
-    background-color: #333;
-    transition: 0.4s; 
-}
-.hamburger-menu {
-    display: block;
-    background-color: #333;
-    transition: transform 0.3s;
-    margin-left: -460px;
-    width: 20px;
-    height: 3px;
-} 
-.hamburger-menu:hover {
-    transform: rotate(45deg);
-    background-color: #333;
-} 
-.hamburger-menu.active {
-    transform: rotate(45deg);
-    background-color: #333;
-} 
-.hamburger-menu.active .bar:nth-child(2) {
-    transform: rotate(-45deg);
-}
 /* hero section - 1 */
 .content {
     width: 100%;
@@ -761,6 +736,9 @@ body {
     line-height: 32px;
     margin-top: 10px;
 }
+.pfooter-cut {
+    display: none;
+}
 .social {
     display: flex;
     flex-direction: row;
@@ -805,6 +783,22 @@ body {
 .info-quatro p {
     margin-top: 0;
 }
+.dropdown-button {
+    display: none;
+}
+.social-media-icons a {
+    display: inline-block;
+    margin-right: 10px; 
+    transition: border-color 0.3s ease-in-out; 
+}
+.social-media-icons img {
+    border: 2px solid transparent; 
+    transition: transform 0.3s ease-in-out;
+}
+.social-media-icons a:hover img {
+    border-color: #5468E7;
+    transform: scale(1.1);
+}
 @media (max-width: 600px) { 
     /* header */
     .logo {
@@ -813,7 +807,7 @@ body {
         margin-inline-start: initial;
         margin-left: -20px;
     }
-    .lista-header {
+    /*.lista-header {
         flex-direction: initial;
         gap: 15px;
         margin-left: 30px;
@@ -821,15 +815,18 @@ body {
     }
     .lista-header li a {
         font-size: 12px;
-    }
+    }*/
     .notifica-dois {
-        width: 50%;
+        display: none;
+    }
+    .default-grey {
+        display: none;
     }
     .btn.dark {
         font-size: 12px;
         padding-left: 10px;
         padding-right: 10px;
-        margin-left: 3px;
+        margin-right: 33px;
     }
     .btn {
         padding: 6px 18px;
@@ -844,15 +841,24 @@ body {
         margin-bottom: 5px;
     }
     .hamburger-menu {
-        display: block;
-        background-color: #333;
-        transition: transform 0.3s;
+        margin-top: -30px;
         margin-left: 108px;
         width: 25px;
         height: 3px;
+        display: block;
+        cursor: pointer;
+        position: relative;
+    } 
+    .hamburger-menu:hover {
+        background-color: transparent;
     } 
     .bar {
         margin-top: 5px;
+        width: 100%;
+        height: 3px;
+        background-color: #333;
+        transition: 0.4s;
+        margin-left: 190px;
     }
     /* hero - 1 */
     .first-section {
@@ -1133,7 +1139,7 @@ body {
         margin-left: 255px;
     }
     .invest {
-        margin-left: 230px;
+        margin-left: 260px;
     }
     .invest img {
         margin-left: 0;
@@ -1177,11 +1183,11 @@ body {
     .dropdown-container {
         position: relative;
     }
-
     .dropdown-button {
         color: #606060;
         padding: 10px 70px;
         cursor: pointer;
+        display: block;
     }
     .dropdown-content {
         background-color: #FFFFFF;
@@ -1212,8 +1218,9 @@ body {
     }
     .pfooter-cut {
         display: block;
+        margin-bottom: 30px;
     }
     .pfooter::after {
-        content: "Agency is a full-service agency, busy designing and building."; /* Substitui o texto cortado por reticências */
+        content: "Agency is a full-service agency, busy designing and building.";
     }
 }
