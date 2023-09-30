@@ -142,7 +142,8 @@ body {
 .scroll-down {
     display: flex;
     flex-direction: row;
-    margin-left: -170px;
+    margin-left: -200px;
+    margin-top: 10px;
 }
 /* hero section - 1 */
 .content {
@@ -884,7 +885,7 @@ body {
     }
     .image-hero img {
         width: 80%;
-        margin-right: -45px;
+        margin-right: -33px;
     }
     /* who we are - 2 */
     .quadrado-wwa {
