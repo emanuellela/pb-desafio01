@@ -867,9 +867,6 @@ body {
         transition: 0.4s;
         margin-left: 190px;
     }
-    .circle-hero {
-        width: 30px;
-    }
     .bottom p {
         font-size: 12px;
         margin-top: 15px;
@@ -879,12 +876,15 @@ body {
         margin-left: -60px;
         padding: 0;
     }
+    .circle-hero {
+        width: 30px;
+    }
     .hero-section .left-hero h1 {
         font-size: 70px; 
     }
     .image-hero img {
         width: 80%;
-        margin-left: 35px;
+        margin-right: -45px;
     }
     /* who we are - 2 */
     .quadrado-wwa {
